@@ -1,0 +1,941 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+div#container {
+  /* background: url("../img/natur_water_sea_travel_sky_beach_turquoise_summer_island_4k_hd.jpg") /no-repeat; */
+  background: url("../img/jungle-wallpaper.jpg") no-repeat;
+  /* background-color: #414141; */
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  min-width: 1800px;
+  min-height: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div#content {
+  width: 1800px;
+  margin: auto;
+  margin-top: -15px;
+  color: white;
+  font-family: "Montserrat" ,Arial, Helvetica, sans-serif;
+  font-size: 18px;  
+}
+
+header > div {
+  height: 985px;
+  background: url("../img/background-last2.png") no-repeat;
+  background-size: cover;
+}
+
+header .overlay {
+  background: linear-gradient(rgba(0,0,0,0.5) 15%, rgba(255,255,255,0.0));
+  height: 980px;
+  width: 1800px;
+  display: flex;
+  justify-content: center;
+}
+
+#headerf{
+  width: 100%;
+  height: 113px;
+  display:flex;
+  justify-content: center;
+  background-color: #000000bb;
+  backdrop-filter: blur(15px);
+  position: fixed;
+  z-index: 1;
+  align-items: flex-end;
+}
+
+#header {
+  font-family: "Montserrat" ,Arial, Helvetica, sans-serif;
+  height: 100px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-items: center;
+  align-items: center;
+  /* border-bottom: 2px solid rgba(255, 255, 255, 1); */
+  width: 1500px;
+}
+
+#header ul{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  font-weight: bolder;
+}
+
+#header ul li {
+  display: inline;
+  margin: 0px 10px;
+}
+
+#header ul a{
+  color: rgba(255,255,255,0.8);
+  transition: 0.4s;
+}
+
+#header ul a:hover {
+  color:rgba(255, 255, 255, 1);
+  font-size: 19px;
+}
+
+#header span {
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgba(255, 255, 255);
+  text-shadow: 1px 1px 1px black;
+  border-radius: 25px;
+}
+
+#header > span a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  transition: 0.5s;
+}
+
+#header > span a:hover {
+  /* color: rgb(255, 255, 255, 1); */
+  /* color: rgb(110, 0, 250); */
+  font-size: 31px; 
+}
+
+#header > a {
+  justify-self: flex-end;
+  margin-right: 100px;
+}
+#header ul a{
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#header a button, #footer button {
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+  padding: 15px 60px;
+  border-radius: 30px;
+  width: 196px;
+  border: 3px solid white;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+/* #header a button::before {
+  content: ' ';
+  display: inline-block;
+  position: relative;
+  right: 2px;
+  width: 30px;
+  height: 30px;
+  background: url("../img/login.png") no-repeat;
+  background-size: cover;
+} */
+
+#header a button:hover, #footer button:hover {
+  color: rgb(255, 255, 255, 0.7);
+  border: 3px solid rgb(255, 255, 255, 0.7);
+}
+
+/* #header2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#header2 p {
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 17px;
+} */
+
+header .remarked .title {
+  width: 1500px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 100px;
+}
+
+header .title > div {
+  width: 900px;
+}
+
+header .remarked .title h1 {
+  text-align: center;
+  text-shadow: 2px 5px 10px black;
+  font-size: 40px;
+  color: #fff3e1;
+}
+header .remarked .title h5 {
+  text-align: center;
+  text-shadow: 2px 2px 1px black;
+  color: white;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+header .remarked .title h4 {
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 2px 2px 1px black; 
+}
+
+section.body1{
+  height: 800px;
+  width: 1800px;
+  color: white; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.body1 > div {
+  width: 1500px;
+  height: 700px;
+  background-color: rgba(0,0,0,0.4);
+  /* background: radial-gradient(#ffeccdaa 44%,#ffeccd00,#ffeccd00); */
+  display: grid;
+  box-shadow: 10px 10px 20px black;
+  grid-template-columns: 1fr 1fr;
+  backdrop-filter:blur(15px);
+  /* border:10; */
+}
+
+section.body1 .col-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.body1 .col-1 h1, .body3 .col-1 h1{
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.body1 .col-1 h4, .body3 .col-1 h4{
+  font-size: 18px;
+  text-align: center;
+}
+
+.body1 .col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+}
+
+.body1 .col-2 .pic {
+  width: 90%;
+  height: 230px;
+  border-radius: 10px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border: 3px solid white;
+}
+
+.body1 .col-2 .pic span {
+  position: relative;
+  top: 50px;
+  /* background-color: #6e5c3e; */
+  background-color: #fffcdd00;
+  border: 4px double white;
+  padding: 10px;
+  color: white;
+  border-radius: 0 0 15px 15px;
+  font-weight: bolder;
+}
+
+.body1 .col-2 .pic.pic-1 {
+  background: url("../img/cappadocia.avif") no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+}
+.body1 .col-2 .pic.pic-2 {
+  background: url("../img/petra-jordan.jpg") no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+.body1 .col-2 .pic.pic-3 {
+  background: url("../img/santorini.jpg") no-repeat;
+  background-size: cover;
+}
+.body1 .col-2 .pic.pic-4 {
+  background: url("../img/egypt-giza.jpg") no-repeat;
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.body1 .col-1 button, .body3 .col-1 button, .body4 button{
+  padding: 15px 50px;
+  font-weight: bolder;
+  color: white;
+  /* background-color: #6e5c3e; */
+  background-color: #907e6700;
+  border: 2px solid #907e67;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.body1 .col-1 button:hover, .body3 .col-1 button:hover, .body4 button:hover{
+  box-shadow: inset 0 0 20px 10px #ffffff33;
+}
+
+.body1 .col-1 a, .body3 .col-1 a {
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.body1 .col-1 a {
+  border: 3px solid white;
+}
+
+section.body2{
+  height: 900px;
+  width: 1800px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #ffeccd; */
+}
+
+section.body2 > div{
+  width: 1500px;
+  height: 700px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 50px;
+}
+
+section.body2 > h1, section.body4 h1{
+  font-size: 35px;
+  text-shadow: 3px 3px 2px black;
+}
+
+.body2 .content .col {
+  /* background-color: #6e5c3e; */
+  background-color: rgba(0,0,0,0.4);
+  backdrop-filter: blur(10px);
+  border-radius: 50px 15px 50px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.body2 .content .col .pic {
+  width: 100%;
+  height: 480px;
+  border-radius: 50px 15px 0px 0px;
+}
+
+.body2 .content .col .pic.pic-1 {
+  background: url("../img/solo.webp") no-repeat;
+  background-size: cover;
+  background-position-x: -360px ;
+}
+
+.body2 .content .col .pic.pic-2 {
+  background: url("../img/duo-package.jpg") no-repeat;
+  background-size: cover;
+  background-position-x: -250px;
+}
+
+.body2 .content .col .pic.pic-3 {
+  background: url("../img/family.webp") no-repeat;
+  background-size: cover;
+  background-position-x: -100px;
+}
+
+.body2 .content .col .pic span {
+  font-size: 23px;
+  color: white;
+  display: inline-block;
+  margin-top: 50px;
+  font-weight: bolder;
+  /* background-color: #ffeccd; */
+  /* background-color: #6e5c3e; */
+  background-color: black;
+  padding: 5px 35px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.body2 .content .col .sub {
+  padding: 0px 20px;
+  font-weight: bolder;
+  color: white;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.body2 .content .col .sub ul li{
+  list-style-type: none;
+}
+
+.body2 .content .col .sub ul {
+  padding: 0 15px;
+}
+
+.body2 .content .col .sub ul li::before{
+  content: ' ';
+  display: inline-block;
+  position: relative;
+  top: 8px;
+  right: 2px;
+  width: 30px;
+  height: 30px;
+  background: url("../img/green-tick.png") no-repeat;
+  background-size: cover;
+}
+
+.body2 button {
+  padding: 15px 50px;
+  font-weight: bolder;
+  color: white;
+  /* background-color: #6e5c3e; */
+  background-color: #907e6700;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  backdrop-filter: blur(15px);
+  transition: 0.4s;
+}
+
+.body2 button:hover {
+  box-shadow: inset 0 0 20px 10px #ffffff33;
+}
+
+.body2 .btn a {
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.body2 div.btn{
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+  margin-top: 50px;
+  height: 50px;
+}
+
+section.body3{
+  height: 850px;
+  width: 1800px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.body3 > div {
+  width: 1500px;
+  height: 750px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  background-color: rgba(0,0,0,0.4);
+  /* background: radial-gradient(#ffeccdaa 44%,#ffeccd00,#ffeccd00); */
+  backdrop-filter: blur(15px);
+  box-shadow: 12px 15px 20px black;
+  /* border: 10px solid #00000066; */
+}
+
+section.body3 .col-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 60px;
+}
+
+.body3 .col-2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.body3 .col-2 .pic {
+  /* #6e5c3e66 */
+  background-color: #ffffffaa;
+  width: 580px;
+  height: 190px;
+  border-radius: 35px 0px 0px 15px;
+  /* box-shadow: 10px 5px 15px #ffffff99; */
+  display: flex;
+  flex-direction: row;
+}
+
+.body3 .col-2 .pic-1, .body3 .col-2  .pic-2, .body3 .col-2 .pic-3 {
+  width: 40%;
+  height: 100%;
+  border-radius: 30px 50px 0px 15px;
+}
+
+.body3 .col-2 .pic-1 {
+  background: url("../img/dubrovnik-croatia.jpg") no-repeat;
+  background-size: cover;
+}
+
+.body3 .col-2 .pic-2 {
+  background: url("../img/riodejaneiro-brazil.webp") no-repeat;
+  background-size: cover;
+}
+
+.body3 .col-2 .pic-3 {
+  background: url("../img/tokyo-japan.webp") no-repeat;
+  background-size: cover;
+}
+
+.body3 .col-2 .pic .sub {
+  padding-top: 30px;
+  padding-left: 25px;
+  color: black;
+}
+
+.body3 .col-2 .pic .sub h3 {
+  margin-bottom: 10px;
+}
+
+.body3 .col-2 .pic .sub span {
+  color: #00000079;
+  font-size: 16px;
+  display: block;
+  font-weight: 600;
+}
+
+.body3 .col-2 .pic .sub h4 {
+  margin-bottom: 0px;
+}
+
+.body3 .col-2 button {
+  padding: 15px 30px;
+  margin-top: 15px;
+  font-weight: bolder;
+  color: black;
+  /* background-color: #6e5c3e; */
+  background-color: #ffffff00;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.body3 .col-2 a {
+  border: 4px double black;
+  padding: 7px 0px;
+  border-radius: 10px;
+}
+
+section.body4{
+  height: 500px;
+  width: 1800px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.body4 > div {
+  width: 1500px;
+  height: 500px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+section.body4 form {
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(15px);
+  width: 1500px;
+  height: 250px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 20px;
+  text-shadow: 3px 3px 2px black;
+  border-radius: 20px;
+  /* border: 10px solid #00000066; */
+  box-shadow: 10px 10px 20px black;
+}
+
+section.body4 form input, section.body4 form select {
+  padding: 15px 15px;
+  font-weight: bolder;
+  width: 170px;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+section.body4 form select {
+  width: 200px;
+}
+
+section.body4 form div:last-of-type {
+  grid-column: 1/8;
+  align-self: first baseline;
+  margin-top: 17px;
+}
+
+section.body4 form input:focus, section.body4 form select:focus{
+    outline: none;
+}
+
+section.body4 label {
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+section.body4 button {
+  background-color: white;
+  color: black;
+}
+
+section.body4 form > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer {
+  color: white;
+  width: 100%;
+  height: 320px;
+  background-color: #111111;
+  display:flex;
+  min-width: 1800px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat" ,Arial, Helvetica, sans-serif;
+}
+
+#footer > div.content {
+  width: 1500px;
+  height: 290px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+#footer a {
+  display: inline;
+  color: #ffffff99;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #fff;
+}
+
+#footer span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#footer .col-4 h3{
+  text-align: center;
+}
+
+#footer .col-4 h3:last-of-type{
+  margin-top: 40px;
+}
+
+#footer .col-4 button{
+  width: 100%;
+}
+
+
+/* notfound.html */
+.second-page#container {
+  width: 100%;
+  height: 980px;
+  background: none;
+  background-color: white;
+}
+
+.second-page#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1500px;
+  height: 950px;
+  text-align: center;
+  color: black;
+}
+
+/* ^ ^ ^ ^ notfound.html ^ ^ ^ ^ */
+
+/* login.html */
+
+.third-page#container {
+  width: 100%;
+  height: 980px;
+}
+
+.third-page#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 1500px;
+  height: 950px;
+  color: black;
+  border-radius: 20px;
+}
+
+.third-page#content > div.login-setup {
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+  width: 100%;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 10px 10px 20px black;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.third-page#content > div.login-setup h1 {
+  margin-top: 50px;
+}
+
+.third-page#content .login-setup form {
+  background-color: white;
+  width: 23%;
+  height: 580px;
+  padding: 50px 50px 0px 50px;
+  border-radius: 10px;
+  color: black; 
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+}
+
+.third-page#content .login-setup form input {
+  width: 90%;
+  padding-left: 40px;
+  font-size: 16px;
+  font-weight: bolder;
+  border: none;
+}
+
+.third-page#content .login-setup label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.third-page#content .login-setup input:focus {
+  outline: none;
+}
+
+.third-page#content .login-setup .col-1 {
+  border-bottom: 2px solid #00000044;
+  height: 63px;
+  margin-bottom: 40px;
+}
+
+.third-page#content .login-setup .col-2 {
+  border-bottom: 2px solid #00000044;
+  height: 63px;
+  margin-bottom: 6px;
+}
+
+.third-page#content .login-setup .col-3 a {
+  text-decoration: none;
+  color: #00000088;
+  font-size: 15px;
+  display: block;
+  text-align: right;
+}
+
+.third-page#content .login-setup .col-4 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.third-page#content .login-setup .col-4 button {
+  color: black;
+  font-weight: bolder;
+  font-size: 15px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  width: 100%;
+  border: 3px solid black;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+
+.third-page#content .login-setup .col-4 a {
+  width: 100%;
+  display: block;
+}
+
+.third-page#content .login-setup .col-5 {
+  margin-top: 15px;
+  font-size: 15px;
+  justify-self: last baseline;
+}
+
+.third-page#content .login-setup .col-5 a {
+  text-decoration: none;
+}
+
+/* ^ ^ ^ ^ login.html ^ ^ ^ ^ */
+
+.third-page#content > div.vacation {
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+  width: 1500px;
+  color: white;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 4fr 6fr;
+  border-radius: 350px 0px 0px 350px;
+  box-shadow: 10px 10px 20px black;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.third-page#content > div.vacation .col {
+  /* background-color: red; */
+  width: 100%;
+  height: 100%;
+}
+
+.third-page#content > div.vacation .col-1.dubro {
+  background: url("../img/dubrovnik2.jpg") no-repeat;
+  background-size: cover;
+  background-position-x: -150px;
+  border-right: 5px double white;
+  border-radius: 350px 0px 0px 350px;
+}
+
+.third-page#content > div.vacation .col-1.rio {
+  background: url("../img/riodejaneiro.jpg") no-repeat;
+  background-size: cover;
+  background-position-x: -300px;
+  border-right: 5px double white;
+  border-radius: 350px 0px 0px 350px;
+}
+
+.third-page#content > div.vacation .col-1.tokyo {
+  background: url("../img/tokyo.jpg") no-repeat;
+  background-size: cover;
+  background-position-x: -300px;
+  border-right: 5px double white;
+  border-radius: 350px 0px 0px 350px;
+}
+
+.third-page#content > div.vacation .col-2 {
+  /* background-color: red; */
+  width: 95%;
+  justify-self: center;
+  border-left: 5px double white;
+}
+
+.third-page#content > div.vacation .col-2 h1 {
+  text-align: center;
+}
+
+.third-page#content > div.vacation .col-2 .days {
+  width: 100%;
+  height: 85%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-items: last baseline;
+}
+
+.third-page#content > div.vacation .col-2 .day{
+  width: 98%;
+  height: 98%;
+  text-align: center;
+}
+
+.third-page#content > div.vacation .col-2 .day span:not(.time) {
+  margin-bottom: 10px;
+  font-weight: 500;
+  display: block;
+}
+
+.third-page#content > div.vacation .col-2 .day span.time {
+  color: rgba(255,255,255,0.6);
+  font-weight: bolder;
+}
+
+.third-page#content > div.vacation .day-0 {
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+  flex-direction: column;
+}
+
+div.vacation .day-0 h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+div.vacation .day-0 h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.third-page.vacs#content{
+  border-radius: 0px 0px 0px 350px;
+}
+
+.third-page#content > div.vacation .col-2 button {
+  position: absolute;
+  left: 1360px;
+  bottom:773px;
+  width: 170px;
+  padding: 10px 0px;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: bolder;
+  background-color: rgba(0,200,0);
+  border: none;
+  color: white;
+  transition: 0.4s;
+}
+
+.third-page#content > div.vacation .col-2 button:hover{
+  cursor: pointer;
+  /* box-shadow: inset 0 0 20px 10px rgba(0,170,0); */
+  background-color: rgba(0,170,0);
+}
